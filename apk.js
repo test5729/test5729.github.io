@@ -1,5 +1,5 @@
 function preload() {
-    this.load.image('good',"/image/index.jpg");
+    this.load.image('good','/image/index.jpg');
 
 }
 
@@ -19,7 +19,6 @@ const config = {
     scene: {
         create,
         preload
-        
     }
 }
 
