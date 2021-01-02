@@ -1,6 +1,7 @@
 function create() {
-    this.add.circle(100,200,90,0xff0000)
+    this.add.circle(100,200,90,0xff0000);
 }
+
 
 const config = {
     height: 500,
