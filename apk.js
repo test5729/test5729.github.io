@@ -1,6 +1,13 @@
+function preload() {
+    this.load.image('good',"/image/index.jpg");
+
+}
+
 function create() {
     this.add.circle(100,200,90,0xff0000);
     this.add.text(100,150,"Welcome");
+    this.add.image(100,100,'good');
+    
 }
 
 
